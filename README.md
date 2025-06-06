@@ -10,21 +10,7 @@ It extracts key information such as:
 
 Perfect for troubleshooting containers, auditing Compose environments, or visualizing your local network topology.
 
----
-
-## 🔧 Features
-
-- ✅ List all local Docker networks
-- ✅ Show real IP ranges (`172.x.x.x/16`, etc.)
-- ✅ Display Linux bridge interfaces (e.g. `br-123456...`)
-- ✅ Detect and show associated Docker Compose project names
-- ✅ Colored, readable terminal output
-- ❌ No dependencies on the Docker API socket
-- 🔒 Fully offline / read-only
-
----
-
-## 🚀 Installation
+## Installation
 
 ### Prerequisites
 
