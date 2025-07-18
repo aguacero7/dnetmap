@@ -2,6 +2,22 @@
 name = "dnetmap"
 version = "0.1.0"
 edition = "2024"
+authors = ["Aguacero7 <naps@teamnaps.fr>"]
+description = "A CLI tool to inspect Docker networks using Rust."
+readme = "README.md"
+license = "MIT"
+repository = "https://github.com/aguacero7/dnetmap"
+homepage = "https://github.com/aguacero7/dnetmap"
+keywords = ["docker", "cli", "network", "inspect", "rust"]
+categories = ["command-line-utilities", "development-tools", "network-programming"]
+exclude = ["/.github", "/target", "/.gitignore", "*.tar.gz"]
+
+[badges]
+maintenance = { status = "actively-developed" }
+
+[[bin]]
+name = "dnetmap"
+path = "src/main.rs"
 
 [dependencies]
 clap = { version = "4", features = ["derive"] }
