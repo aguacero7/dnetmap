@@ -17,6 +17,12 @@ Perfect for troubleshooting containers, auditing Compose environments, or visual
 - [Rust](https://rust-lang.org) (edition 2021 or later)
 - Docker CLI installed and accessible (`docker network inspect`, etc.)
 
+### Install the crate using cargo
+
+```bash
+cargo install dnetmap
+```
+
 ### Build manually
 
 ```bash
